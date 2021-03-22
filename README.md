@@ -62,6 +62,7 @@ Chose string tokenizer when compared to scanner, because if there are more than 
 Assumptions:
  - Assuming there is only one word in a line.
  - Assuming file is always populated with data.
+ - Assuming not more than one large numbers are present. If more than one large words are present, only first large word is picked and transposed.
 
 -TestCases:
   - Positive:
